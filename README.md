@@ -13,4 +13,6 @@ A couple of machine learning examples are shown using different classifiers and 
  - **Fully-Connected Deep Neural Network_k-fold_Updated**: My updated template for a binary classification, with a confusion matrix. Metrix given: Accuracy, Matthews Correlation Coefficient. For each class: Recall, Precision, F1 score, Specificity, Sensitivity
   - **Fully-Connected Deep Neural Network_random_split_Updated**: Simirarly, a template for a binary classification using random split.
 
+Lazy update: there's a bug in the DNN notebook, will update it later maybe
+
 
