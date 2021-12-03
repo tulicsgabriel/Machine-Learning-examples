@@ -151,8 +151,9 @@ def get_number_of_proteins(feature_list):
 
 def get_correlation_metrics(x, y):
     """
-    Get of MIC, Pearson, Spearman and Cosine similarity
-    More on MIC: https://rhondenewint.wordpress.com/2018/12/09/maximal-information-coefficient-a-modern-approach-for-finding-associations-in-large-data-sets/
+    Get of Maximal Information Coefficient (MIC), Pearson, Spearman 
+    and Cosine similarity
+    More on MIC: https://bit.ly/3xQfYSI
 
     Parameters
     ----------
@@ -209,7 +210,9 @@ if __name__ == "__main__":
     print("Number of proteins in the feature vector: ")
     print(get_number_of_proteins(manual_feature_names))
     print("\n")
-    ##
+
+    ## Get of Maximal Information Coefficient (MIC), Pearson, Spearman 
+    # and Cosine similarity
     # generate random numbers between 0-1 *10
     x = list((rand(10) * 10))
     y = [2.0 + 0.7 * num ** 2 + 0.5 * num for num in x]
