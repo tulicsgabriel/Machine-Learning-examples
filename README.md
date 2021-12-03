@@ -13,6 +13,9 @@ A couple of machine learning examples are shown using different classifiers and 
  - **Fully-Connected Deep Neural Network_k-fold_Updated**: My updated template for a binary classification, with a confusion matrix. Metrix given: Accuracy, Matthews Correlation Coefficient. For each class: Recall, Precision, F1 score, Specificity, Sensitivity
   - **Fully-Connected Deep Neural Network_random_split_Updated**: Simirarly, a template for a binary classification using random split.
 
+## Helper function
+The file *custom_metrics.py* contains a range of useful functions that one could use, such as getting the accuracy, recall, precision, f1score, specificity, sensitivity, Matthews Correlation Coefficient (MCC), can print the confusion matrix in a pretty way (as wikipedia defines it and not like sklearn does it), and calculates the Pearson coeff, Spearman coeff, MIC & Cosine Similarity
+
 Lazy update: there's a bug in the DNN notebook, will update it later maybe
 
 
